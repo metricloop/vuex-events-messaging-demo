@@ -91,19 +91,40 @@ export default {
 </script>
 
 <style>
+  #app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   .inputs {
+    display: flex;
+    flex-direction: column;
     margin: 1em 0;
   }
   .input-group {
     display: flex;
     flex-direction: column;
     width: 190px;
-    margin: .5em 0;
+    margin: 1.25em 0;
   }
   label {
     padding-bottom: .25em;
   }
   button {
+    cursor: pointer;
+    transition: all 0.2s ease-out;
     margin-top: 1em;
+    padding: 1em;
+    background-color: white;
+    color: steelblue;
+    box-shadow: none;
+    border: 1px solid steelblue;
+    border-radius: 2px;
+  }
+  button:hover {
+    color: white;
+    background-color: steelblue !important;
   }
 </style>
