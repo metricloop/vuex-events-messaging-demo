@@ -19,8 +19,8 @@
       <div class="input-group">
         <label>Dismissible?</label>
         <span>
-          <input type="radio" name="gender" :value="true" v-model="dismiss"> Yes
-          <input type="radio" name="gender" :value="false" v-model="dismiss"> No
+          <input type="radio" :value="true" v-model="dismiss"> Yes
+          <input type="radio" :value="false" v-model="dismiss"> No
         </span>
       </div>
       <button @click="sendMsg">Send Message</button>
