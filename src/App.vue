@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import { mapActions, mapGetters } from 'vuex'
+import { mapActions } from 'vuex'
 import messages from './components/messages/messages'
 export default {
   name: 'app',
