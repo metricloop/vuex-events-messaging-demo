@@ -115,7 +115,7 @@ export default {
   button {
     cursor: pointer;
     transition: all 0.2s ease-out;
-    margin-top: 1em;
+    margin: 1em auto 0;
     padding: 1em;
     background-color: white;
     color: steelblue;
