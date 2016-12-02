@@ -1,6 +1,6 @@
 <template>
     <transition-group name="messages" tag="div" class="messages">
-        <message v-for="message in messages" :key="message" :message="message"></message>
+        <message v-for="message in messages" :key="message.id" :message="message"></message>
     </transition-group>
 </template>
 
