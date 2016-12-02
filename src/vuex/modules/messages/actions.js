@@ -26,7 +26,7 @@ class Message {
         }
     }
 
-    text() {
+    text(message) {
         this.message.text = message;
         return this;
     }
