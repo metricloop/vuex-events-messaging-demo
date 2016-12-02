@@ -1,6 +1,8 @@
-# vuex-messages-demo
+# vuex-events-messaging-demo
 
-> A Vue.js project
+> A Metric Loop Demo
+
+This demo will show you how to get up and running with Vuex. For a detailed walkthrough on how to use it, check out our [blog post](https://metricloop.com/blog). 
 
 ## Build Setup
 
@@ -14,5 +16,3 @@ npm run dev
 # build for production with minification
 npm run build
 ```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
